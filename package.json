@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reklatsmasters/is-rtp.git"
+    "url": "git+https://github.com/nodertc/is-rtp.git"
   },
   "keywords": [
     "rtp",
@@ -28,12 +28,12 @@
   "author": "Dmitry Tsvettsikh <me@reklatsmasters.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reklatsmasters/is-rtp/issues"
+    "url": "https://github.com/nodertc/is-rtp/issues"
   },
   "engines": {
     "node": ">=4"
   },
-  "homepage": "https://github.com/reklatsmasters/is-rtp#readme",
+  "homepage": "https://github.com/nodertc/is-rtp#readme",
   "dependencies": {
     "tape": "^4.7.0"
   }
