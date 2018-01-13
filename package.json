@@ -1,6 +1,6 @@
 {
   "name": "is-rtp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Check if a Buffer is a RTP/RTCP message.",
   "main": "index.js",
   "scripts": {
