@@ -15,15 +15,13 @@ test('should work', t => {
 })
 
 test('should throws', t => {
-  const err = /Argument 1 should be a Buffer./
-
-  t.throws(() => isRtp(1), err)
-  t.throws(() => isRtp(NaN), err)
-  t.throws(() => isRtp(null), err)
-  t.throws(() => isRtp(undefined), err)
-  t.throws(() => isRtp({}), err)
-  t.throws(() => isRtp(''), err)
-  t.throws(() => isRtp(Buffer.alloc(0)), err)
+  t.false(isRtp(1))
+  t.false(isRtp(NaN))
+  t.false(isRtp(null))
+  t.false(isRtp(undefined))
+  t.false(isRtp({}))
+  t.false(isRtp(''))
+  t.false(isRtp(Buffer.alloc(0)))
 
   t.end()
 })
